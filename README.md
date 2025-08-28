@@ -4,7 +4,10 @@ This project explores the **Netflix dataset** to analyze trends in movies and TV
 
 ---
 
-## 📂 Dataset
+## 📊 About the Dataset
+
+- **Source:** [Netflix Dataset on Kaggle](https://www.kaggle.com/datasets/shivamb/netflix-shows)
+-  
 The dataset contains:
 - `show_id`
 - `type`
@@ -30,14 +33,23 @@ The dataset contains:
 
 ---
 
-## 📊 Data Analysis & Manipulation
-- Handled missing values (`dropna` for important columns).
-- Converted `duration` (Movies → minutes, TV Shows → seasons).
-- Encoded categorical features (`LabelEncoder`).
-- Extracted insights on:
-  - Movies vs TV Shows count
-  - Distribution by country
-  - Popular release years
+## 🧹 Data Cleaning
+- Handled missing values  
+- Dropped unnecessary columns  
+- Checked and removed duplicates  
+- Converted `date_added` to datetime format  
+
+---
+## 🔍 Exploratory Data Analysis (EDA)
+- Distribution of Movies vs TV Shows  
+- Most common countries producing content  
+- Trend of releases over the years  
+- Popular genres and ratings  
+
+---
+## ⚙️ Feature Engineering
+- Extracted `year_added`, `month_added` from `date_added`  
+- Processed categorical features for ML  
 
 ---
 
@@ -50,6 +62,7 @@ The dataset contains:
 ---
 
 ## 🚀 How to Run
+
 1. Clone the repository:
    ```bash
    git clone https://github.com/swathi-gurijala/netflix-analysis.git
