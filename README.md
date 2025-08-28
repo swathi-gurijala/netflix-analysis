@@ -7,7 +7,6 @@ This project explores the **Netflix dataset** to analyze trends in movies and TV
 ## 📊 About the Dataset
 
 - **Source:** [Netflix Dataset on Kaggle](https://www.kaggle.com/datasets/shivamb/netflix-shows)
--  
 The dataset contains:
 - `show_id`
 - `type`
