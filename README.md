@@ -63,7 +63,11 @@ The dataset contains:
 ## 🚀 How to Run
 
 1. Clone the repository:
-   ```bash
+   check my collab file:
+   (collab)[https://colab.research.google.com/drive/1VN_yaM7PBw8lMtxERgjnIfc_ASG1ji6B?usp=sharing]
+
+   if you want to clone from my github:
+   
    git clone https://github.com/swathi-gurijala/netflix-analysis.git
    cd netflix-analysis
 
