@@ -1,5 +1,5 @@
 # 🎬 Netflix Movies & TV Shows Data Analysis
-
+Data Analysis and Machine Learning on Netflix Movies & TV Shows Dataset.
 This project explores the **Netflix dataset** to analyze trends in movies and TV shows, perform data cleaning, manipulation, and build a simple **machine learning model** to classify whether a record is a Movie or TV Show.
 
 ---
@@ -45,7 +45,7 @@ The dataset contains:
 - **Model Used**: Logistic Regression  
 - **Features**: `release_year`, `country`, `duration`  
 - **Target**: `type` (Movie = 0, TV Show = 1)  
-- **Accuracy Achieved**: ~ *74.38%*  
+- **Accuracy Achieved**: ~ *74.4%*  
 
 ---
 
